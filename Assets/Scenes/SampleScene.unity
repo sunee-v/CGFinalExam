@@ -167,10 +167,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7918335002988649766, guid: 2d07320fa45d84a9a952e328f7a0151d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1302f6ae8d33d4c7caa14e1235c78a7e, type: 2}
+    - target: {fileID: -4826283518533707917, guid: 2d07320fa45d84a9a952e328f7a0151d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1302f6ae8d33d4c7caa14e1235c78a7e, type: 2}
+    - target: {fileID: -4683669308469848369, guid: 2d07320fa45d84a9a952e328f7a0151d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 681a94a7e15354abfbea85fb18af81a9, type: 2}
     - target: {fileID: 919132149155446097, guid: 2d07320fa45d84a9a952e328f7a0151d, type: 3}
       propertyPath: m_Name
       value: YoshiExam
       objectReference: {fileID: 0}
+    - target: {fileID: 4513436144390156688, guid: 2d07320fa45d84a9a952e328f7a0151d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9022ca8e537604c2f8b04daf85d9fdc9, type: 2}
+    - target: {fileID: 9017852701390564767, guid: 2d07320fa45d84a9a952e328f7a0151d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9022ca8e537604c2f8b04daf85d9fdc9, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
