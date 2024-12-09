@@ -50,7 +50,17 @@
         }
     ],
     "m_GroupDatas": [],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "0dec5b427e5f494594b1438484bec06d"
+        },
+        {
+            "m_Id": "46498afb1f4c47c892206ef4df08b7bb"
+        },
+        {
+            "m_Id": "444b41e537f145aebfe6db16122c8da1"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -330,6 +340,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "0dec5b427e5f494594b1438484bec06d",
+    "m_Title": "screen pos and buffer",
+    "m_Content": "Makes it so that the image of the frame is taken before it renders onto screen. Used to lerp or blend the lut colours with the image before render.\n",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1142.0,
+        "y": -174.5,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "10a1271d69624bb0a9be133c29880e11",
     "m_Group": {
@@ -560,6 +590,46 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "444b41e537f145aebfe6db16122c8da1",
+    "m_Title": "Lerp",
+    "m_Content": "Blends between the image of frame before render and with the LUT. This changes colours. \n\nContribution changes the intensity of the LUT colour correction.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -387.0,
+        "y": 7.0,
+        "width": 200.0,
+        "height": 218.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "46498afb1f4c47c892206ef4df08b7bb",
+    "m_Title": "Sample Texture",
+    "m_Content": "Simply uses SS to clamp the image colours so it does not look too bad with seams. Takes LUT texture 2d\n",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -701.0,
+        "y": 231.0,
+        "width": 188.5,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SampleTexture2DNode",
     "m_ObjectId": "46d573728f024e4699159dbb84534995",
     "m_Group": {
@@ -783,10 +853,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1044.9998779296875,
-            "y": -15.500018119812012,
-            "width": 208.0,
-            "height": 312.4999694824219
+            "x": -1045.0001220703125,
+            "y": -15.499990463256836,
+            "width": 208.00006103515626,
+            "height": 312.5000305175781
         }
     },
     "m_Slots": [
