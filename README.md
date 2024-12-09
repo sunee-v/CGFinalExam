@@ -10,6 +10,7 @@
 
 **Colour Correction Shader:** I started off by creating a pink lut. This lut is used for a texture 2D. Now on shader graph, I added a screen position node and connected it to a URP sample buffer node. This is set to BlitzSource to get the image of the frame where it is currently at before it renders. After I lerped the frames before renders with the LUT image, which ends up correcting the colours as needed.
 <img width="831" alt="Screenshot 2024-12-09 at 2 10 19 PM" src="https://github.com/user-attachments/assets/92ea2c38-1ef6-4ae7-83a0-6443bd4a5025">
+<img width="841" alt="Screenshot 2024-12-09 at 2 14 38 PM" src="https://github.com/user-attachments/assets/ca6e124b-ae7d-406a-80b1-74ef96490f24">
 
 **Scrolling Texture Shader:** I used a time node and outputed it into the offset node from the Tiling and Offset. From here, I just placed the texture I wanted to scroll and connected the input with the tiling and offset output. This returned a scrolling texture.
 
