@@ -1,4 +1,4 @@
-#CG Final Exam: Even
+# CG Final Exam: Even
 
 **Shaders Made**
 -  Colour correction (LUT)
