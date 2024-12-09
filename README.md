@@ -6,7 +6,7 @@
 -  Vertex Displacement
 -  Colour changing shader with texture
 
-*Each shader was made using shadergraph. The Windows Build was made on macOS (might be why it doesn't work)*
+*Each shader was made using shadergraph. The Windows Build was made on macOS (might be why it doesn't work; but it should work)*
 
 *Google Drive Link for Windows Build: https://drive.google.com/file/d/1th58r8EqHUyaVrUJJ4kqLxkKSwD1fJbc/view?usp=sharing*
 
