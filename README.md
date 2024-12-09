@@ -9,10 +9,9 @@
 *Each shader was made using shadergraph*
 
 **Colour Correction Shader:** I started off by creating a pink lut. This lut is used for a texture 2D. Now on shader graph, I added a screen position node and connected it to a URP sample buffer node. This is set to BlitzSource to get the image of the frame where it is currently at before it renders. After I lerped the frames before renders with the LUT image, which ends up correcting the colours as needed.
-![LUTShadergraph](https://github.com/user-attachments/assets/93f31309-2c68-47ee-9104-c592581530f8)
+<img width="831" alt="Screenshot 2024-12-09 at 2 10 19 PM" src="https://github.com/user-attachments/assets/92ea2c38-1ef6-4ae7-83a0-6443bd4a5025">
 
 **Scrolling Texture Shader:** I used a time node and outputed it into the offset node from the Tiling and Offset. From here, I just placed the texture I wanted to scroll and connected the input with the tiling and offset output. This returned a scrolling texture.
-<img width="855" alt="Screenshot 2024-12-09 at 2 09 43 PM" src="https://github.com/user-attachments/assets/71c33a78-1cac-4104-ae96-77043468b8e7">
 
 **Vertex Displacement Shader:** This shader is hard to see as it is applied to the mountains of the yoshi scene. It uses the position of the object in the world. This uses the x and z from the split node to add to time. This makes it so that the vertices move based on time. Then it is added to sine to make it a wave-like motion which is then calculated and added into the position node of the vertex shader.
 
